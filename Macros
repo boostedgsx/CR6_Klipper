@@ -8,16 +8,6 @@
 description: It's fucking art.
 gcode:
 	############################################################
-	#### PRINTER CONFIG OVERRIDES ##############################
-	#{% set PLA_PRESSURE_ADVANCE = params.PA1|default(0.8172)|string %}
-	#{% set PLA_RETRACT_LENGTH = params.RTL1|default(2)|string %}
-	#{% set PLA_RETRACT_SPEED = params.RTS1|default(60)|string %}
-	#{% set PLA_Z_OFFSET = params.Z1|default(-0.159)|string %}
-	#{% set PET_PRESSURE_ADVANCE = params.PA2|default(0.6)|string %}
-	#{% set PET_RETRACT_LENGTH = params.RTL2|default(1)|string %}
-	#{% set PET_RETRACT_SPEED = params.RTS2|default(40)|string %}
-	#{% set PET_Z_OFFSET = params.Z2|default(-0.159)|string %}
-	############################################################
 	#### SLICER RETRIEVED VALUES ###############################
 	{% set BED_TEMP = params.BED_TEMP|default(60)|float %}
 	{% set TOOL_TEMP = params.TOOL_TEMP|default(165)|float %}
