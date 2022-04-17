@@ -2,7 +2,7 @@
 ###   START_PRINT   #############################################
 #################################################################
 ### COPY INTO SLIC3R ############################################
-#start_print BED_TEMP={first_layer_bed_temperature[initial_extruder]} TOOL_TEMP={first_layer_temperature[initial_extruder]+extruder_temperature_offset[initial_extruder]} FILAMENT_TYPE=[filament_type]
+#PRINT_START BED_TEMP={first_layer_bed_temperature[initial_extruder]} TOOL_TEMP={first_layer_temperature[initial_extruder]+extruder_temperature_offset[initial_extruder]} FILAMENT_TYPE=[filament_type]
 
 [gcode_macro PRINT_START]
 description: It's fucking art.
